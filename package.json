@@ -1,0 +1,24 @@
+{
+  "name": "node-goodies",
+  "version": "1.0.0",
+  "description": "A collection of node goodies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "cluster": "npm install & nodemon clustering/cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naguibihab/node-goodies.git"
+  },
+  "author": "Naguib Ihab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naguibihab/node-goodies/issues"
+  },
+  "homepage": "https://github.com/naguibihab/node-goodies#readme",
+  "dependencies": {
+    "nodemon": "^1.13.3",
+    "prompt": "^1.0.0"
+  }
+}
