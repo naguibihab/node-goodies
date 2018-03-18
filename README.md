@@ -1,2 +1,2 @@
 # node-goodies
-Some goodies for nodejs
+Playing around with nodejs
