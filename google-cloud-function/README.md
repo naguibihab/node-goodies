@@ -1,8 +1,8 @@
 # Google Cloud Functions
 
-A google cloud function triggered by a pub/sub topic
+Here we have two functions that are working off two pubsubs. Pubsub1 triggers doStuffThenPubSub which publishes to Pubsub2 which triggers helloPubSub
 
-Following (this tutorial)[https://cloud.google.com/functions/docs/tutorials/pubsub#windows] to create this function
+Pubsub1 --> doStuffThenPubSub() --> Pubsub2 --> helloPubSub()
 
 To deploy the function:
 
