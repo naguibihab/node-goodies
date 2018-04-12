@@ -1,12 +1,10 @@
 {
-  "name": "node-goodies",
+  "name": "promise",
   "version": "1.0.0",
-  "description": "A collection of node goodies",
-  "main": "index.js",
+  "description": "Using promises in node",
+  "main": "promise.js",
   "scripts": {
-    "start": "node main.js",
-    "cluster": "npm install & nodemon clustering/cluster.js",
-    "promise": "npm install & nodemon promise/promise.js"
+    "start": "npm install & nodemon promise/promise.js"
   },
   "repository": {
     "type": "git",

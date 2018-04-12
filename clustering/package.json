@@ -1,0 +1,23 @@
+{
+  "name": "clustering",
+  "version": "1.0.0",
+  "description": "Using clusters with node",
+  "main": "cluster.js",
+  "scripts": {
+    "start": "npm install & nodemon cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naguibihab/node-goodies.git"
+  },
+  "author": "Naguib Ihab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naguibihab/node-goodies/issues"
+  },
+  "homepage": "https://github.com/naguibihab/node-goodies#readme",
+  "dependencies": {
+    "nodemon": "^1.13.3",
+    "prompt": "^1.0.0"
+  }
+}
